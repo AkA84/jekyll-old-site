@@ -1,0 +1,20 @@
+site_title: Bienestar Counseling Center
+site_logo: /images/logo-en.png
+nav:
+  home: Home
+  services: Services
+  blog: Blog
+  price_list: Price List
+  profile: Profile
+  forum: Forum
+  contact: Contact
+global:
+  who_we_are:
+    title: Who we are
+    description: We are a center providing excellent services on the professional level. Our aim is that all our clients find their personal well-being, their "Bienestar”.
+  what_we_do:
+    title: What we do
+    description: We bring to our clients comprehensive counseling for children and adults, relaxation training, and for those who are unable to come to us personally, we offer online counseling.
+  way_we_do:
+    title: The way we do it
+    description: We bring you the symbolic - relaxation approach, which is the path to your inner well-being. It is successfully applied in a variety of problems, stress and anxiety. It is based on the principles of relaxation, which are enriched with Jungian theory of associations and symbols.

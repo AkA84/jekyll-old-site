@@ -1,0 +1,20 @@
+site_title: Poradenské centrum Bienestar
+site_logo: /images/logo.png
+nav:
+  home: Domov
+  services: Služby
+  blog: Blog
+  price_list: Cenník
+  profile: Profil
+  forum: Fórum
+  contact: Kontakt
+global:
+  who_we_are:
+    title: Kto sme
+    description: Sme centrum poskytujúce poradenské služby na excelentnej a profesionálnej úrovni. Našim cieľom je, aby všetci naši klienti našli svoju osobnú pohodu, svoj "Bienestar".
+  what_we_do:
+    title: Čo robíme
+    description: Našim klientom prinášame komplexné poradenstvo pre deti aj dospelých, relaxačné tréningy a pre tých, ktorí nemajú možnosť prísť za nami osobne tu máme online poradenstvo.
+  way_we_do:
+    title: Ako to robíme
+    description: Prinášame Vám symbolicko – relaxačný prístup, ktorý je cestou k Vašej vnútornej pohode. Úspešne sa aplikuje pri rôznych problémoch, strese a úzkosti. Je založený na princípoch relaxácie, ktoré sú obohatené o Jungovu teóriu asociácií a symbolov.

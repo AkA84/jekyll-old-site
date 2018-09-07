@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section id="content_cont">
+  <div id="left_cont">
+  	<h1 class="single_title">
+      {% if site.translations[site.lang]['nav'][page.title] %}
+        {{ site.translations[site.lang]['nav'][page.title] }}
+      {% else %}
+        {{ page.title }}
+      {% endif %}
+    </h1>
+  	<div class="single_inside_content">
+  		{{ content }}
+  	</div>
+  	<br><br>
+  </div>
+  <aside id="sidebar">
+  	<div class="side_box">
+      <h3 class="side_title">Blog</h3>
+      <ul>
+        {% assign blogs_current_lang = site.posts | where: "lang", site.lang %}
+        {% for post in blogs_current_lang %}
+          <li>
+            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+  		</ul>
+  	</div>
+  </aside>
+  <div class="clear"></div>
+</section>

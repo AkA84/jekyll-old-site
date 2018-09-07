@@ -1,0 +1,17 @@
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+collections_dir: content
+
+collections:
+  services:
+    output: true
+
+# i18n
+languages: ["sk", "en", "es"]
+exclude_from_localizations: ["js", "images", "css"]
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-multiple-languages-plugin

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section class="home_cont">
+	<img src="/images/citat-{{ site.lang }}.png" alt="watermark">
+</section>
+<section class="home_featured_cont">
+	{% assign services_current_lang = site.services | where: "lang", site.lang %}
+	{% for service in services_current_lang %}
+	<div class="home_featured_box">
+		<a href="{{ site.baseurl }}{{ service.url }}">
+			<img width="327" height="204" src="{{ service.thumbnail }}" class="attachment-home-featured-image wp-post-image" alt="">
+		</a>
+		<a href="{{ site.baseurl }}{{ service.url }}" class="home_featured_title">{{ service.title }}</a>
+	</div>
+	{% endfor %}
+	<div class="clear"></div>
+</section>

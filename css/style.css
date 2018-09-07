@@ -1,0 +1,255 @@
+/*
+Theme Name: Full Screen Responsive Theme
+Theme URI: http://www.dessign.net/fullscreentheme
+Description: Full Screen Responsive Theme for WordPress is stylish, customizable, simple, and readable. Perfect for any creative, illustrator or graphic designer.
+Version: 2.0
+Author: Marios Lublinski
+Author URI: http://www.dessign.net
+Tags: 3 column theme, clean, portfolio
+*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* Global */
+body, div { margin: 0; padding: 0; }
+body { font-size: 13px; font-family: Helvetica, Verdana, sans-serif; color: #333; line-height: 17px; background: url(images/bg.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; }
+a { color: #000; text-decoration: none; }
+h1,h2,h3,h4,h5,p { margin: 10px 0; }
+.no_margin_top { margin-top: 0 !important; }
+.margin_top_25 { margin-top: 25px; }
+.margin_vert_20 { margin: 20px 0; }
+.margin_vert_25 { margin: 25px 0; }
+.padding_bottom_10 { padding-bottom: 10px !important; }
+img { border: none; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+sup { font-size: 11px; }
+.line_height_22 { line-height: 22px !important; }
+.font_10 { font-size: 10px !important; }
+.font_11 { font-size: 11px; }
+.font_14 { font-size: 14px; }
+.font_17 { font-size: 17px; }
+.font_18 { font-size: 18px; }
+.font_28 { font-size: 28px; line-height: 30px; }
+.font_42 { font-size: 42px; }
+.font_normal { font-weight: normal; }
+.float_none { float: none !important; }
+.green_text { color: #005a4a; }
+.purple_text { color: #76236d; }
+
+.textwidget {text-align: justify; }
+
+#main_container { width: 981px; margin: 0 auto; }
+
+::selection {
+
+	background: #c9dee3;
+
+	}
+
+::-moz-selection {
+
+	background: #c9dee3;
+
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+/* Header */
+#header { border-top: 1px solid #fff; background-color: #fff; padding: 27px 10px 22px 10px; }
+#header_inside { width: 981px; margin: 0 auto; }
+.logo { float: left; margin-right: 10px; }
+.header_social { float: right; }
+.header_social img { margin-left: 8px; float: left; margin-top: 5px; }
+#menu_container { float: right; margin-right: 30px; margin-top: 70px; }
+#menu_container ul { list-style-type: none; margin: 0; padding: 0; }
+#menu_container ul li { float: left; font-size: 13px; margin: 0 15px; position: relative; padding-bottom: 10px; text-transform: uppercase; }
+#menu_container ul li a { color: #686765; text-decoration: none; }
+#menu_container ul li.current-menu-item a,
+#menu_container ul li.current_page_item a,
+#menu_container ul li a:hover { color: #000;  }
+#menu_container ul li ul { position: absolute; top: 25px; left: 0; z-index: 50; border: 1px solid #dfdfdf; border-top: 1px solid #efefef; padding: 3px 5px; background-color: #fff; display: none; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);}
+#menu_container ul li ul li { width: 150px; float: none; padding: 0; font-size: 12px; border: none; margin: 0; }
+#menu_container ul li ul li:first-child { padding-left: 0; }
+#menu_container ul li ul li a,
+#menu_container ul li.current-menu-item ul li a,
+#menu_container ul li.current_page_item ul li a { background-color: #fff; color: #b2b2b6; padding: 10px 10px; border-top: 1px solid #efefef; display: block; font-weight: normal; }
+#menu_container ul li ul li:first-child a,
+#menu_container ul li.current-menu-item ul li:first-child a,
+#menu_container ul li.current_page_item ul li:first-child a { border-top: none; }
+#menu_container ul li ul li a:hover { background-color: #fff; color: #000; }
+.home_cont { text-align: center; padding: 140px 0; }
+.home_featured_cont { }
+.home_featured_box { width: 327px; height: 166px; float: left; position: relative; }
+.home_featured_box img { width: 327px; height: 166px; }
+.home_featured_title { display: none; position: absolute; left: 0; bottom: 15px; padding: 5px 5px; font-size: 14px; color: #000; text-decoration: none; background-color: #fff; }
+
+.related_box .home_featured_box { width: 330px; }
+.related_box .home_featured_box img { width: 330px; }
+
+#content_cont { margin: 20px 0 20px; background-color: #fff; }
+#content_cont .home_featured_box { margin-bottom: 25px; }
+h1.archive_title { padding: 10px 5px; font-size: 15px; font-weight: normal; margin: 0; }
+.archive_nav { padding: 8px 10px; }
+#left_cont { width: 660px; float: left; margin: 15px 0 0 15px; font-size: 14px;  line-height: 22px; }
+.blog_box { padding-bottom: 10px; border-bottom: 1px dotted #000; margin-bottom: 10px; font-size: 14px; }
+.blog_box p { line-height: 20px; }
+.blog_box img { width: 660px; height: 420px; }
+.blog_date { margin: 10px 0; background-color: #000; color: #fff; padding: 2px 10px 2px 10px; display: inline-block; font-size: 11px; }
+.blog_box h3 a { display: inline-block; font-size: 17px; font-weight: bold; color: #333; background-color: #fff; padding: 5px 1px; }
+.blog_nav { padding: 10px 0; }
+.blog_nav a { display: block; background-color: #000; color: #fff; font-size: 15px; padding: 5px 10px; }
+h1.single_title { margin: 0 0 15px; font-size: 23px; font-weight: normal; }
+h3.you_may_like { margin: 25px 0 10px; background-color: #000; color: #fff; font-size: 11px; font-weight: normal; padding: 1px 7px; }
+#commentform input[type=submit] { background-color: #161616; color: #fff; border: 1px solid #6E6E6E; padding: 3px 5px; }
+/* Sidebar */
+#sidebar { width: 265px; float: right; margin: 15px 15px 0 0; font-size: 13px; margin-top: 30px; }
+.side_box { margin-bottom: 12px; padding-top: 12px; border-top: 1px dotted #ccc; }
+h3.side_title { margin: 0 0 10px; font-size: 14px; font-weight: normal; text-transform: uppercase; }
+.side_box ul { list-style-type: none; margin: 0; padding: 0; }
+.side_box ul li { margin-bottom: 8px; }
+.side_box a:hover { color: #666; }
+.t1_search_cont { position: relative; width: 260px; }
+.t1_search_cont input[type=text] { width: 240px; height: 17px; border: 1px solid #E5E5E5; padding: 3px 15px 3px 5px;  }
+.t1_search_icon { position: absolute; top: 6px; right: 3px; }
+
+/* Footer */
+#footer { background-color: #fff; color: #333; margin-top: 10px; }
+#footer_inside { width: 931px; padding: 15px 25px; margin: 0 auto; }
+.footer_box_cont { width: 283px; float: left; padding-right: 20px; margin-right: 20px; border-right: 1px dotted #333; }
+.footer_box { margin-bottom: 8px; }
+h3.footer_title { margin: 0 0 10px; font-size: 14px; }
+.footer_box ul { list-style-type: none; margin: 0; padding: 0; }
+.footer_box ul li { margin-bottom: 6px; }
+.footer_box ul li a { color: #b2b2b2; text-decoration: none; }
+.footer_box_cont_last { margin-right: 0; border-right: none; padding-right: 0; }
+p.copyright { font-size: 10px; }
+p.copyright a { color: #333; text-decoration: underline; }
+/* for tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	#main_container { width: 700px; }
+	#header_inside { width: 700px; }
+	#menu_container { margin-right: 15px; }
+	#menu_container ul li { font-size: 12px; margin: 0 10px; }
+	.home_cont { padding: 145px 0; }
+	.home_featured_box { width: 233px; height: 118px;  }
+	.home_featured_box img { width: 233px; height: 118px; }
+
+	#left_cont { width: 480px; float: left; margin: 5px 0 0 5px; }
+	.blog_box img { width: 480px; height: 305px; }
+	.single_inside_content img { max-width: 480px; height: inherit; }
+
+	.related_box .home_featured_box { width: 240px; }
+	.related_box .home_featured_box img { width: 240px; height: 122px; }
+
+	#sidebar { width: 180px; margin: 5px 5px 0 0; }
+	.t1_search_cont { position: relative; width: 170px; }
+	.t1_search_cont input[type=text] { width: 150px; height: 17px; border: 1px solid #E5E5E5; padding: 3px 15px 3px 5px;  }
+
+	#footer_inside { width: 670px; padding: 8px 5px; }
+	.footer_box_cont { width: 196px; padding-right: 15px; margin-right: 15px; }
+	.footer_box_cont_last { margin-right: 0; border-right: none; }
+
+}
+/* for mobile landscape */
+@media screen and (max-width: 766px) {
+
+	#main_container { width: 310px; }
+	#header_inside { width: 310px; }
+	.logo { float: none; margin: 10px 0; }
+	.header_social { display: none; }
+	header { text-align: center; }
+	#menu_container { float: none; margin-right: 0px; text-align: left; }
+	#menu_container ul li { font-size: 12px; margin: 0 10px; }
+
+	.home_cont { padding: 25px 0; }
+	.home_cont img { max-width: 310px; height: inherti; }
+	.home_featured_box { width: 310px; height: 157px; float: none; position: relative; }
+	.home_featured_box img { width: 310px; height: 157px; }
+
+	#left_cont { width: 300px; float: left; margin: 5px 0 0 5px; }
+	.blog_box img { width: 300px; height: 191px; }
+
+	#content_cont .related_box .home_featured_box { width: 300px; margin-bottom: 0; height: 152px; }
+	.related_box .home_featured_box img { width: 300px; height: 152px; display: block; }
+	.related_box { padding-bottom: 10px; }
+
+	.single_inside_content img { max-width: 300px; height: inherit; }
+	#commentform textarea { max-width: 280px; }
+	#sidebar { display: none; }
+
+	#footer_inside { width: 310px; padding: 8px 15px; }
+	.footer_box_cont { width: 280px; padding: 0; margin: 0 0 15px; float: none; border: none; }
+
+}

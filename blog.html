@@ -1,0 +1,11 @@
+---
+layout: blog
+title: blog
+---
+{% assign blogs_current_lang = site.posts | where: "lang", site.lang %}
+{% for post in blogs_current_lang %}
+	<div class="home_featured_box">
+		<a href="{{ site.baseurl }}{{ post.url }}"><img width="327" height="166" src="{{ post.thumbnail }}" class="attachment-home-featured-image wp-post-image" alt=""></a>
+		<a href="{{ site.baseurl }}{{ post.url }}" class="home_featured_title" style="display: none;">{{ post.title }}</a>
+	</div>
+{% endfor %}

@@ -1,0 +1,20 @@
+site_title: Centro de consejería Bienestar
+site_logo: /images/logo-es.png
+nav:
+  home: Inicio
+  services: Servicios
+  blog: Blog
+  price_list: Tarifas
+  profile: Perfil
+  forum: Foro
+  contact: Contacto
+global:
+  who_we_are:
+    title: ¿Quienes somos?
+    description: Somos un centro de consejería que ofrece servicios en un nivel excelente y profesional. Nuestro objetivo es que todos nuestros clientes encuentren su satisfacción interna, su Bienestar.
+  what_we_do:
+    title: ¿Qué hacemos?
+    description: Para nuestros clientes brindamos consejería completa para niños y adultos, los asesoramos en la relajación y para quienes no tienen la oportunidad de llegar a nuestro centro personalmente, brindamos consejería y terapia online.
+  way_we_do:
+    title: Como lo hacemos
+    description: Les brindamos a ustedes terapia relajante y simbólica, que dirija el rumbo hacia su bienestar interno. Se aplica exitosamente para la variedad de los problemas, estrés y ansiedad. Se funda en los principios de la relajación, los cuales a su vez son enriquecidos por la teoría de asociaciones y símbolos de Jung, que busca el bienestar mediante el análisis de las palabras y símbolos que creamos en nuestro discurso.

@@ -1,0 +1,12 @@
+---
+layout: internal
+title: services
+---
+<ul>
+  {% assign services_current_lang = site.services | where: "lang", site.lang %}
+  {% for service in services_current_lang %}
+    <li>
+      <a href="{{ site.baseurl }}{{ service.url }}">{{ service.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
