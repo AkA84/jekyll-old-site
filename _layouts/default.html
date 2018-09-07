@@ -62,8 +62,7 @@
 				<a href="https://plus.google.com/u/0/114989399573093806278/posts">
 					<img src="/images/google-plus-icon.png" alt="google plus">
 				</a>
-				{% for item in site.translations %}
-					{% assign lang = item[0] %}
+				{% for lang in site.languages %}
 					{% if forloop.index0 == 0 %}
 						<a href="{{ site.baseurl_root}}/" title="{{ lang }}">
 					{% else %}
